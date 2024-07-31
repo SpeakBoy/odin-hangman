@@ -113,7 +113,6 @@ def game_loop(game)
   end
 end
 
-puts (File.read "save.json").class
 puts "\nWelcome to Hangman! Press any key to play! \nOr if you would like to load your save, please type 'load'!"
 game = Hangman.new
 input = gets.chomp.downcase
