@@ -70,9 +70,9 @@ class Hangman
     puts "\nIncorrect Guesses: #{@incorrect_guesses} of 6"
     if !(@winner.nil?)
       if @winner == "human"
-        puts "Congratulations! You have guessed the word '#{@chosen_word}' correctly!"
+        puts "\nCongratulations! You have guessed the word '#{@chosen_word}' correctly!"
       else
-        puts "Oh no! You failed to guess the word '#{@chosen_word}' correctly and the man has been hung!"
+        puts "\nOh no! You failed to guess the word '#{@chosen_word}' correctly and the man has been hung!"
       end
       return true
     end
